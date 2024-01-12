@@ -1,0 +1,48 @@
+ @import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Indic+Siyaq+Numbers:regular); 
+
+ /* button related */
+ .btn-primary{
+    
+ }
+ *{
+font-family: 'Work Sans', sans-serif;
+ }
+ /* header related style */
+
+ header{
+    background-color: rgba(236, 178, 112, 0.1);
+    padding: 50px 240px;
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+ }
+ nav>ul{
+    display: flex;
+ }
+ nav li{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #424242;
+    list-style: none;
+ }
+ /* banner style */
+ .banner-content{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+ }
+ .banner-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #131313;
+ }
+ .banner-description{
+    color: #727272;
+ }
