@@ -57,14 +57,45 @@ font-family: 'Work Sans', sans-serif;
     width: 100%;
     margin-top: 20px;
  }
- /* media queries mobile and tablet */
- @media screen and (max-width: 576px) {
-  header{
-    padding: 20px;
-  }  
-  nav {
-    flex-direction: column;
-  }
+ /* features style */
+ main{
+    max-width: 1440px;
+    padding-left: 300px;
+    padding-right: 140px ;
+ }
+ .teams-container{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding-top: 50px; 
+ }
+ .feature-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    border-radius: 10px;
+ }
+ .feature-title-content{
+    padding-left: 70px;
+ }
+ .features-title .quick-list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+ }
+ .features-title .of-our{
+    color:black;
+    font-size: 2.8rem;
+    font-weight: 500;
+ }
+ .features-title .feature{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 500;
+ }
+ .features-description{
+    color: #727272;
+    font-weight: 400;
  }
  /* media queries tablet */
  @media screen and (min-width: 576px) and (max-width: 992px) {
