@@ -100,6 +100,38 @@ font-family: 'Work Sans', sans-serif;
     color: #727272;
     font-weight: 400;
  }
+ /* features styles */
+ .featuress{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 130px;
+    gap: 100px;
+    justify-content: space-between;
+ }
+ .feature-content .card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px;
+    border-radius: 5px;
+ }
+ .features-photo img{
+    width: 100%;
+ }
+ .section-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2rem;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+ }
+ .ten-years-badge{
+    width: 340px;
+    background-color: #FF900E;
+    color: #fff;
+    padding: 30px;
+ }
+ .ten-years-badge h2{
+    font-size: 3rem;
+ }
  /* facts related style */
  .facts-content .card{
     border: 1px solid #FF900E;
@@ -137,6 +169,13 @@ font-family: 'Work Sans', sans-serif;
 }
 .our-sponsor-container-logo img{
     width: 165px;
+}
+.footer-section{
+    color: #424242;
+    font-size: 1.25rem;
+    background-color: #FFFFF4E7;
+    padding: 40px auto;
+    text-align: center;
 }
 
 
