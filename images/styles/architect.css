@@ -182,6 +182,8 @@ font-family: 'Work Sans', sans-serif;
     background-color: #FFFFF4E7;
     padding: 40px auto;
     text-align: center;
+    border: 1px dashed blueviolet;
+    margin: 10px 100px;
 }
 
 
