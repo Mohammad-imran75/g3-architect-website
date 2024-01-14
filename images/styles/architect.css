@@ -115,6 +115,7 @@ font-family: 'Work Sans', sans-serif;
  }
  .features-photo img{
     width: 100%;
+    margin-left: 70px;
  }
  .section-title{
     color: #131313;
@@ -127,10 +128,15 @@ font-family: 'Work Sans', sans-serif;
     width: 340px;
     background-color: #FF900E;
     color: #fff;
-    padding: 30px;
+    padding: 20px 0px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+
  }
  .ten-years-badge h2{
     font-size: 3rem;
+    margin: 0px;
  }
  /* facts related style */
  .facts-content .card{
@@ -208,6 +214,13 @@ font-family: 'Work Sans', sans-serif;
     .facts-content{
         gap: 20px;
     }
+    .featuress{
+        grid-template-columns: 1fr;
+    }
+    .features-photo img{
+        width: 100%;
+        margin-left: 0px;
+    }
 }
     
  
@@ -223,5 +236,8 @@ font-family: 'Work Sans', sans-serif;
     }
     .feature-title-content{
         padding: 20px;
+    }
+    .featuress{
+        grid-template-columns: 1fr;
     }
  }
